@@ -1,4 +1,4 @@
-# Pyhton-HackerRank-Challanges
+# Pyhton-HackerRank-Challenges
 This repo includes the challenges solutions provided by the HackerRank in their Prepare Section.
 
 I'm using this repository to keep track of my practice and note down a detail description of each challanges.
