@@ -1,0 +1,25 @@
+"""
+def listToDict(li):
+    dicti = {li[i][0]:li[i][1] for i in range (0, len(li)))}
+    return dicti
+"""
+if __name__ == '__main__':
+    student = []
+    scores = []
+    
+    for N in range(int(input())):
+        name = input()
+        score = float(input())
+        scores.append(score)
+        student.append([name, score])
+    
+    count = scores.count(min(scores))
+    for i in range(count):
+        scores.remove(min(scores))
+    
+    newStudentMin = min(scores)
+    
+    student.sort()
+    finalResult = [x for x in student if x[1] == newStudentMin]
+    for i in finalResult:
+        print(i[0])
