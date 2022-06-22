@@ -1,0 +1,13 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+
+#num = int(input())
+#arr = list()
+#for i in range(num):
+#    elem = int(input(""))
+#    arr.append(int(elem))
+arr = list(set(list(arr)))
+length = len(arr)
+arr = sorted(arr)
+print(arr[length-2])
