@@ -30,7 +30,7 @@ Sample Output 0
 56.00
 
 Explanation 0
-Marks for Malika are  whose average is 
+Marks for Malika are {52,56,60} whose average is (52+26+60)/3 = 56
 
 Sample Input 1
 2
